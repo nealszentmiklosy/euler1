@@ -1,11 +1,10 @@
 var output = "";
 let a=3
 let b=5
-for (let i=1; i<=3; i++){
+let x=0
+for (let i=1; i<=100; i++){
   if (i%a == 0 || i%b == 0){
-    output += "yup";
+    x += i;
   }
-  if (output == "")
-  {output = i;}
-  console.log(output);
 }
+console.log(x)
